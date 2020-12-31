@@ -53,7 +53,7 @@ func newsHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	p := webPage{Title: "Local News Database", newsInfo: nMap}
-	t, _ := template.ParseFiles("newsaggtemplate.html")
+	t, _ := template.ParseFiles("template.html")
 	t.Execute(w, p)
 }
 
