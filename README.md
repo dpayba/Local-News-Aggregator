@@ -13,3 +13,6 @@ To correctly setup mapIndex and newsInfo:
 
 Based on webmap file of site, headings may need to be adjusted
 (e.g. Instead of date published it may have keywords instead)
+
+TODO:
+[ ] Implement feature to add more sites
